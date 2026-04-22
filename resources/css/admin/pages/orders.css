@@ -1,0 +1,14 @@
+body[data-admin-page='orders-index'] .status-filter-group {
+    justify-content: end;
+}
+
+body[data-admin-page='orders-show'] .status-panel {
+    position: sticky;
+    top: 18px;
+}
+
+@media (max-width: 1180px) {
+    body[data-admin-page='orders-show'] .status-panel {
+        position: static;
+    }
+}

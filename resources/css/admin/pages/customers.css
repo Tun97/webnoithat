@@ -1,0 +1,4 @@
+body[data-admin-page='customers-show'] .surface-panel:last-child {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(248, 241, 230, 0.92) 100%);
+}

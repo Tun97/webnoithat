@@ -1,0 +1,9 @@
+body[data-admin-page^='categories-'] .detail-panel,
+body[data-admin-page^='categories-'] .form-aside {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(250, 244, 235, 0.94) 100%);
+}
+
+body[data-admin-page^='categories-'] .preview-tile strong {
+    color: var(--admin-accent-strong);
+}

@@ -1,0 +1,8 @@
+@import './base.css';
+@import './components.css';
+@import './pages/dashboard.css';
+@import './pages/categories.css';
+@import './pages/products.css';
+@import './pages/contacts.css';
+@import './pages/orders.css';
+@import './pages/customers.css';

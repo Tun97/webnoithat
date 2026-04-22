@@ -1,0 +1,32 @@
+body[data-admin-page^='contacts-'] .contact-message-cell {
+    max-width: 360px;
+    line-height: 1.6;
+    color: var(--admin-muted);
+}
+
+body[data-admin-page='contacts-show'] .contact-message-panel {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(248, 241, 230, 0.94) 100%);
+}
+
+body[data-admin-page='contacts-show'] .contact-message-box {
+    min-height: 260px;
+    margin-top: 16px;
+    padding: 20px;
+    border-radius: 22px;
+    border: 1px solid rgba(155, 77, 35, 0.14);
+    background: rgba(255, 255, 255, 0.78);
+    color: var(--admin-text);
+    line-height: 1.8;
+    white-space: pre-wrap;
+}
+
+body[data-admin-page='contacts-show'] .contact-delete-form {
+    margin-top: 18px;
+}
+
+@media (max-width: 760px) {
+    body[data-admin-page^='contacts-'] .contact-message-cell {
+        max-width: none;
+    }
+}
