@@ -269,6 +269,12 @@ h1 {
     font-size: 38px;
 }
 
+body[data-admin-page$='-show'] .page-header h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
 .page-header p {
     max-width: 780px;
     margin: 12px 0 0;
@@ -341,6 +347,12 @@ h1 {
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--admin-muted);
+}
+
+body[data-admin-page$='-show'] .detail-item span,
+body[data-admin-page$='-show'] .panel-kicker {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0;
 }
 
 .detail-item strong {
